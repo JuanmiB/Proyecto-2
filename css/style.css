@@ -2,4 +2,143 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* -------------------Imagen de la portada------------------ */
+body header .imagen-portada{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+/* ---------------------Lista de navegacion------------------- */
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    font-size: 1.3rem;
+    justify-content: center;
+/* ----------------------Cuerpo de Index--------------------- */
+}
+body{
+    height: 98vh;
+    background-image: url(../img/paisaje-de-god-of-war-ragnarok.jpg);
+}
+section{
+    width: 95%;
+}
+main section {
+    display: flex;
+    justify-content: center;
+    
+}
+/* -----------------------Articulo de Introduccion------------- */
+.articulo{
+    width: 700px;
+    margin: 100px 30px;
+    padding: 30px;
+    background-color: rgba(128, 128, 128, 0.322);
+    border: solid 2px black;
+    border-radius: 10px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+
+}
+/* --------------------------Articulo de Juego-------------------- */
+.juegos{ 
+    width: 700px;
+    margin: 100px 30px;
+    padding: 30px;
+    background-color: rgba(128, 128, 128, 0.322);
+    border: solid 2px black;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+}
+span{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+display: grid;
+    align-items: center;
+    border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+.imagen-portada{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.863);
+    justify-content: space-between;
+}
+footer nav ul{
+    list-style: none;
+    color: antiquewhite;
+    font-size: 1.2rem;
+}
+.pie-pagina{
+    border: 2px solid white;
+}
+.navegacion-footer{
+    border: solid 2px white ;
+    display: flex;
+    
+
+} */
