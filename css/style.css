@@ -1,39 +1,51 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 /* -------------------Imagen de la portada------------------ */
-body header .imagen-portada{
+
+body header .imagen-portada {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.863);
 }
+
 /* ---------------------Lista de navegacion------------------- */
-header nav ul{
+header nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     gap: 80px;
     font-size: 1.3rem;
+    padding: 10px;
     justify-content: center;
-/* ----------------------Cuerpo de Index--------------------- */
+    background-color: rgba(0, 0, 0, 0.863);
+    /* ----------------------Cuerpo de Index--------------------- */
 }
-body{
-    height: 98vh;
+
+.portada{
+    height: auto;
     background-image: url(../img/paisaje-de-god-of-war-ragnarok.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-section{
+
+section {
     width: 95%;
 }
+
 main section {
     display: flex;
     justify-content: center;
-    
+
 }
+
 /* -----------------------Articulo de Introduccion------------- */
-.articulo{
+.articulo {
     width: 700px;
     margin: 100px 30px;
     padding: 30px;
@@ -48,8 +60,9 @@ main section {
     font-size: 1.6rem;
 
 }
+
 /* --------------------------Articulo de Juego-------------------- */
-.juegos{ 
+.juegos {
     width: 700px;
     margin: 100px 30px;
     padding: 30px;
@@ -61,24 +74,27 @@ main section {
     flex-direction: column;
     font-size: 1.6rem;
 }
-span{
+
+span {
     display: block;
     justify-content: center;
     align-items: center;
 }
 
-footer{
-display: grid;
+footer {
+    display: grid;
     align-items: center;
     border: 2px solid red;
     background-color: rgba(0, 0, 0, 0.863);
 }
-.imagen-portada{
+
+.imagen-portada {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-footer nav ul{
+
+footer nav ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -88,7 +104,7 @@ footer nav ul{
     align-items: center;
     color: aliceblue;
     margin-top: 20px;
-    }
+}
 
 
 
