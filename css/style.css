@@ -23,7 +23,16 @@ header nav ul {
     padding: 10px;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.863);
+    font-weight: bold;
+    padding-bottom: 50px;
     
+}
+li{
+    border: 2px solid grey;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.116);
+
 }
 a{
     text-decoration: none;
@@ -43,7 +52,7 @@ a{
 
 section {
     width: 95%;
-}
+}  
 
 main section {
     display: flex;
@@ -80,6 +89,9 @@ main section {
     display: flex;
     flex-direction: column;
     font-size: 1.6rem;
+}
+.caja-juego{
+    text-align: center;
 }
 
 span {
