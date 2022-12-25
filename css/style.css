@@ -3,46 +3,57 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: auto;
 }
 
 /* -------------------Imagen de la portada------------------ */
+header {
+    background-image: url(../img/olimpo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 body header .imagen-portada {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.863);
+    width: auto;
+
 }
 
 /* ---------------------Lista de navegacion------------------- */
-header nav ul {
+nav {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+ul {
     list-style: none;
     display: flex;
-    flex-direction: row;
-    gap: 80px;
-    font-size: 1.3rem;
-    padding: 10px;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.863);
-    font-weight: bold;
-    padding-bottom: 50px;
-    
+    flex-direction: column;
+    gap: 7px;
+    text-align: center;
 }
-li{
+
+li {
     border: 2px solid grey;
     padding: 8px;
-    border-radius: 25px;
-    background-color: rgba(128, 128, 128, 0.116);
-
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 20px;
 }
-a{
+
+a {
     text-decoration: none;
     color: brown;
 }
 
-    /* ----------------------Cuerpo de Index--------------------- */
+/* ----------------------Cuerpo de Index--------------------- */
 
-.portada{
-    height: 100%;
+.portada {
+    /* height: 100%; */
     background-image: url(../img/paisaje-de-god-of-war-ragnarok.jpg);
     background-position: center;
     background-size: cover;
@@ -50,9 +61,6 @@ a{
 
 }
 
-section {
-    width: 95%;
-}  
 
 main section {
     display: flex;
@@ -60,11 +68,11 @@ main section {
 
 }
 
-/* -----------------------Articulo de Introduccion------------- */
-.articulo {
+/* -----------------------Articulos------------------- */
+.caja-main {
     width: 700px;
     margin: 100px 30px;
-    padding: 30px;
+    padding: 10px;
     background-color: rgba(128, 128, 128, 0.322);
     border: solid 2px black;
     border-radius: 10px;
@@ -75,23 +83,6 @@ main section {
     align-items: center;
     font-size: 1.6rem;
 
-}
-
-/* --------------------------Articulo de Juego-------------------- */
-.juegos {
-    width: 700px;
-    margin: 100px 30px;
-    padding: 30px;
-    background-color: rgba(128, 128, 128, 0.322);
-    border: solid 2px black;
-    border-radius: 10px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.6rem;
-}
-.caja-juego{
-    text-align: center;
 }
 
 span {
@@ -100,11 +91,18 @@ span {
     align-items: center;
 }
 
+
+/* -------------------------Footer--------------------- */
+
+
 footer {
-    display: grid;
-    align-items: center;
+    background-image: url(../img/Inframundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* align-items: center;
     border: 2px solid red;
-    background-color: rgba(0, 0, 0, 0.863);
+    background-color: rgba(0, 0, 0, 0.863); */
 }
 
 .imagen-portada {
@@ -113,19 +111,36 @@ footer {
     align-items: center;
 }
 
-footer nav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    font-size: 1.3rem;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
-    margin-top: 20px;
+
+
+
+
+
+
+
+@media(max-width:725px) {
+    .kratos {
+        width: 400px;
+        height: 130px;
+    }
 }
 
+@media(max-width:400px) {
+    .kratos {
+        width: 370px;
+        height: 100px;
+    }
 
+}
+
+@media (min-width:735px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 60px
+    }
+
+}
 
 
 

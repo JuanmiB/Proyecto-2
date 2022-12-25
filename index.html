@@ -7,39 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <title>God of War</title>
 </head>
 
 <body>
     <header>
-        <div class="imagen-portada"><img src="./img/god-of-war-logo-png.png" alt=""></div>
+        <div class="imagen-portada"><img class="kratos" src="./img/god-of-war-logo-png.png" alt=""></div>
         <nav>
             <ul>
-                <a href="./index.html">
+                <a class="btn" href="./index.html">
                     <li>Inicio</li>
                 </a>
-                <a href="./page/historia.html">
+                <a class="btn" href="./page/historia.html">
                     <li>Historia</li>
                 </a>
-                <a href="./page/armas-armaduras.html">
+                <a class="btn" href="./page/armas-armaduras.html">
                     <li>Armas y armaduras</li>
                 </a>
-                <a href="./page/personajes.html">
+                <a class="btn" href="./page/personajes.html">
                     <li>Personajes</li>
                 </a>
-                <a href="./page/contacto.html">
+                <a class="btn" href="./page/contacto.html">
                     <li>Contacto</li>
                 </a>
             </ul>
         </nav>
+
     </header>
 
-    <div class="portada">
-
-
-        <main>
-            <section class="introduccion">
-                <div class="articulo introduccion">
+        <main class="portada">
+            <section data-aos="fade-up"
+            data-aos-duration="1000">
+                <div class="caja-main">
                     <h2>Introduccion</h2>
                     <p>
                         Han pasado años desde que Kratos tomó su venganza contra los Dioses Olímpicos. Habiendo
@@ -57,16 +58,16 @@
                 </div>
             </section>
 
-
-            <section>
-                <div class="juegos">
+            <section data-aos="fade-up"
+            data-aos-duration="1000">
+                <div class="caja-main">
                     <h2>Juegos</h2>
 
                     <div class="caja-juego" data-aos="zoom-in-right" data-aos-duration="2000">
                         <img src="./img/PortadaGOW.png" alt="">
                         <span>God Of War I</span>
                     </div>
-            
+
                     <div class="caja-juego" data-aos="zoom-in-left" data-aos-duration="2000">
                         <img src="./img/PortadaGOW2.png" alt="">
                         <span>God Of War II</span>
@@ -81,19 +82,13 @@
                         <img src="./img/Portada2018.png" alt="">
                         <span>God Of War</span>
                     </div>
-
-                </div>
             </section>
         </main>
-
-
-
 
 
         <footer>
             <div class="pie">
                 <div class="imagen-portada">
-                    <img src="./img/god-of-war-logo-png.png" alt="" width="290px" height="75px">
                     <img src="./img/guerra.png" alt="" width="128px" height="128px">
                 </div>
                 <div class="navegacion-footer">
@@ -121,6 +116,8 @@
         </footer>
 
     </div>
+
+
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
