@@ -23,15 +23,22 @@ header nav ul {
     padding: 10px;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.863);
-    /* ----------------------Cuerpo de Index--------------------- */
+    
+}
+a{
+    text-decoration: none;
+    color: brown;
 }
 
+    /* ----------------------Cuerpo de Index--------------------- */
+
 .portada{
-    height: auto;
+    height: 100%;
     background-image: url(../img/paisaje-de-god-of-war-ragnarok.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 section {
