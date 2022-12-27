@@ -14,7 +14,7 @@ header {
     background-repeat: no-repeat;
 }
 
-body header .imagen-portada {
+body header .imagen-cabecera {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.863);
@@ -52,7 +52,7 @@ a {
 
 /* ----------------------Cuerpo de Index--------------------- */
 
-.portada {
+.imagen-fondo {
     /* height: 100%; */
     background-image: url(../img/paisaje-de-god-of-war-ragnarok.jpg);
     background-position: center;
@@ -105,10 +105,29 @@ footer {
     background-color: rgba(0, 0, 0, 0.863); */
 }
 
-.imagen-portada {
+
+
+
+/* ----------------PAGINA GALERIA--------------------- */
+
+/* ----------------Grilla Galeria--------------------- */
+
+.galeria{
+    padding: 15px 0px;
+}
+
+.galeria h2{
+    text-align: center;
+    padding: 10px;
+}
+.grilla-galeria{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    gap: 10px;
+}
+.grilla-galeria img{
+    width: 95%;
 }
 
 
@@ -117,6 +136,8 @@ footer {
 
 
 
+
+/* ---------------------MEDIAQ-------------------------- */
 
 @media(max-width:725px) {
     .kratos {
@@ -143,52 +164,28 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.863);
-    justify-content: space-between;
-}
-footer nav ul{
-    list-style: none;
-    color: antiquewhite;
-    font-size: 1.2rem;
-}
-.pie-pagina{
-    border: 2px solid white;
-}
-.navegacion-footer{
-    border: solid 2px white ;
-    display: flex;
+@media(min-width:768px){
+    .grilla-galeria{
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        grid-template-rows: repeat(4,20vh);
+        justify-content: center;
+    }
     
-
-} */
+    .grilla-galeria img{
+        width: 100%;
+        height: 100%;
+    }
+    .img-destacada{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    }
+    
+    @media(min-width: 1200px){
+        .grilla-galeria{
+            grid-template-columns: repeat(4,22.5%);
+            grid-template-rows: repeat(2,25vh);
+        }
+    
+    }
