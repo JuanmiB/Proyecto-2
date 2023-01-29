@@ -11,3 +11,9 @@ main section {
     justify-content: center;
 
 }
+
+@media (max-width:590px){
+    .video-avance{
+        width: 70%;
+    }
+}

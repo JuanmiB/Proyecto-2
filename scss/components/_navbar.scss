@@ -24,3 +24,11 @@ a {
     text-decoration: none;
     color: brown;
 }
+@media (min-width:735px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 60px
+    }
+
+}

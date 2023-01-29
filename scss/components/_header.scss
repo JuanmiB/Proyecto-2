@@ -12,3 +12,9 @@ body header .imagen-cabecera {
     width: auto;
 
 }
+
+@media(min-width:320px){
+    .kratos{
+        width: 50%;
+    }
+}

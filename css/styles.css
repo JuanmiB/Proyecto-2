@@ -1,9 +1,8 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  width: auto;
 }
 
 a {
@@ -16,7 +15,7 @@ ol {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 48px;
 }
 
 header {
@@ -33,6 +32,11 @@ body header .imagen-cabecera {
   width: auto;
 }
 
+@media (min-width: 320px) {
+  .kratos {
+    width: 50%;
+  }
+}
 nav {
   display: flex;
   justify-content: center;
@@ -60,6 +64,13 @@ a {
   color: brown;
 }
 
+@media (min-width: 735px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+}
 .caja-main {
   width: 700px;
   margin: 100px 30px;
@@ -128,42 +139,43 @@ main section {
   justify-content: center;
 }
 
-.contacto {
-  display: flex;
-  align-content: center;
-  text-align: center;
-  width: 500px;
-  height: 45px;
-  font-size: 1.8rem;
-  background-color: rgba(128, 128, 128, 0.322);
-  margin: 20px;
+@media (max-width: 590px) {
+  .video-avance {
+    width: 70%;
+  }
 }
-
-.area {
-  height: 300px;
+@media (min-width: 768px) {
+  .contacto {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    width: 500px;
+    height: 45px;
+    font-size: 1.8rem;
+    background-color: rgba(128, 128, 128, 0.322);
+    margin: 20px;
+  }
+  .area {
+    height: 300px;
+  }
+  label {
+    display: block;
+  }
+  h1 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .perfil-personajes {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .perfil-personajes img {
+    width: 350px;
+    height: 460px;
+  }
 }
-
-label {
-  display: block;
-}
-
-h1 {
-  text-align: center;
-  padding-top: 20px;
-}
-
-.perfil-personajes {
-  border: 2px solid black;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.perfil-personajes img {
-  width: 350px;
-  height: 460px;
-}
-
 .galeria {
   padding: 15px 0px;
 }
