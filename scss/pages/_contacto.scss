@@ -1,0 +1,35 @@
+.contacto {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    width: 500px;
+    height: 45px;
+    font-size: 1.8rem;
+    background-color: rgba(128, 128, 128, 0.322);
+    margin: 20px;
+
+}
+
+.area {
+    height: 300px;
+}
+label {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.perfil-personajes {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.perfil-personajes img {
+    width: 350px;
+    height: 460px;
+}
