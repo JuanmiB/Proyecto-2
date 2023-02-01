@@ -166,6 +166,12 @@ footer {
     padding-top: 20px;
   }
 }
+.fila {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .perfil-personajes {
   width: 600px;
   height: 530px;
