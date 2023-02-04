@@ -12,92 +12,107 @@
 
 <body>
     <header>
-        <div class="imagen-cabecera"><img class="kratos" src="../img/god-of-war-logo-png.png" alt=""></div>
+        <div class="imagen-cabecera">
+            <img class="kratos" src="../img/god-of-war-logo-png.png" alt="God of War">
+        </div>
 
-<!------------------------------------------------------BARRA DE NAVEGACION------------------------------------------->
+        <!------------------------------------------------------BARRA DE NAVEGACION------------------------------------------->
         <nav>
             <ul>
-                <a href="../index.html"><li>Inicio</li></a>
-                <a href="../page/galeria.html"><li>Galeria</li></a>
-                <a href="../page/logros.html"><li>Logros</li></a>
-                <a href="../page/armas.html"><li>Armas</li></a>
-                <a href="../page/contacto.html"><li>Contacto</li></a>
+                <a href="../index.html">
+                    <li>Inicio</li>
+                </a>
+                <a href="../page/galeria.html">
+                    <li>Galeria</li>
+                </a>
+                <a href="../page/logros.html">
+                    <li>Logros</li>
+                </a>
+                <a href="../page/armas.html">
+                    <li>Armas</li>
+                </a>
+                <a href="../page/contacto.html">
+                    <li>Contacto</li>
+                </a>
             </ul>
         </nav>
     </header>
-    
-    <div class="portada">
-<!----------------------------------------------------------MAIN---------------------------------------------------->
-    <main class="imagen-fondo">
-        <h1>Formulario de errores</h1>
-<!-- ---------------------------------------------------SECCION FORMULARIO-------------------------------------- -->
-        <section>
-            <div class="caja-main">
-                <form action="">
-                    <div>
-                        <label for="">Correo electronico</label>
-                        <input class="email contacto" type="email">
-                    </div>
-                    <div>
-                        <label for="">Tipo de error/Problema</label>    
-                        <select class="selector contacto" name="" id="">
-                            <option value="0"selected>Seleccione</option>
-                            <option value="1">Bug en el juego</option>
-                            <option value="2">Error en la pagina</option>
-                            <option value="3">Falta informacion</option>
-                            <option value="4">Otro</option>
-                        </select>
-                        
-                    </div>
-                    <div>
-                        <label for="">Informe detallado</label>
-                        <textarea class="area contacto" name="" id="" cols="30" rows="10" placeholder="Escribre de forma detallada el problema/error que has encontrado"></textarea>
-                    </div>
-                    <div>
-                        <input class="btn cancelar" type="reset" value="Cancelar">
-                        <input class="btn enviar" type="submit">
-                    </div>
-                </form>
-            </div>
-        </section>
-    </main>
-        <!------------------------------------------------------FOOTER--------------------------------------------------------> 
-    <footer>
-        <div class="pie">
-            <div class="imagen-portada">
-                <img src="../img/guerra.png" alt="" width="128px" height="128px">
-            </div>
-            <div class="navegacion-footer">
-                <nav>
-                    <ul>
-                        <a href="../index.html">
-                            <li>Inicio</li>
-                        </a>
-                        <a href="../page/galeria.html">
-                            <li>Galeria</li>
-                        </a>
-                        <a href="../page/logros.html">
-                            <li>Logros</li>
-                        </a>
-                        <a href="../page/armas.html">
-                            <li>Armas</li>
-                        </a>
-                        <a href="../page/contacto.html">
-                            <li>Contacto</li>
-                        </a>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </footer>
 
-</div>
+    <div class="portada">
+        <!----------------------------------------------------------MAIN---------------------------------------------------->
+        <main class="imagen-fondo">
+            <h1>Formulario de errores</h1>
+            <!-- ---------------------------------------------------SECCION FORMULARIO-------------------------------------- -->
+            <section>
+                <div class="caja-main">
+                    <form action="" class="formulario">
+                        <div>
+                            <label for="">Correo electronico</label>
+                            <input class="email contacto" type="email">
+                        </div>
+                        <div>
+                            <label for="">Tipo de error/Problema</label>
+                            <select class="selector contacto" name="" id="">
+                                <option value="0" selected>Seleccione</option>
+                                <option value="1">Bug en el juego</option>
+                                <option value="2">Error en la pagina</option>
+                                <option value="3">Falta informacion</option>
+                                <option value="4">Otro</option>
+                            </select>
+
+                        </div>
+                        <div>
+                            <label for="">Informe detallado</label>
+                            <textarea class="area contacto" name="" id="" cols="30" rows="10"
+                                placeholder="Escribre de forma detallada el problema/error que has encontrado"></textarea>
+                        </div>
+
+                        <section>
+                            <input class="btn cancelar" type="reset" value="Cancelar">
+                            <input class="btn enviar" type="submit">
+                        </section>
+
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!------------------------------------------------------FOOTER-------------------------------------------------------->
+        <footer>
+            <div class="pie">
+                <div class="imagen-portada">
+                    <img src="../img/guerra.png" alt="Letra Omega de god of war" width="128px" height="128px">
+                </div>
+                <div class="navegacion-footer">
+                    <nav>
+                        <ul>
+                            <a href="../index.html">
+                                <li>Inicio</li>
+                            </a>
+                            <a href="../page/galeria.html">
+                                <li>Galeria</li>
+                            </a>
+                            <a href="../page/logros.html">
+                                <li>Logros</li>
+                            </a>
+                            <a href="../page/armas.html">
+                                <li>Armas</li>
+                            </a>
+                            <a href="../page/contacto.html">
+                                <li>Contacto</li>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+
+    </div>
 
     <!------------------------------------------------------SCRIPT------------------------------------------------------->
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init(); </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(); </script>
 </body>
 
 </html>

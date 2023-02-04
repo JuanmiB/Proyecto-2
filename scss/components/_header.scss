@@ -1,20 +1,19 @@
+/*--------------------------------------------------------CABECERA---------------------------------------------------*/
 header {
     background-image: url(../img/olimpo.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
 
-body header .imagen-cabecera {
-    display: flex;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.863);
-    width: auto;
-
-}
-
-@media(min-width:320px){
-    .kratos{
-        width: 50%;
+    & .imagen-cabecera{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.863);
+        width: auto;
+    
     }
 }
+
+.kratos{
+        width: 50%;
+    }

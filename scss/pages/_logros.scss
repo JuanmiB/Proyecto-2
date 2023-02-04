@@ -1,8 +1,11 @@
+/*----------------------------------------------------------CAJA DE SECCION LOGROS-------------------------------------------*/
 .fila{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
+/*----------------------------------------------------------QUERY CAJA DE SECCION LOGROS-------------------------------------------*/
 @media(min-width: 1200px){
 
     .grilla-logros{

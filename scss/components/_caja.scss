@@ -1,3 +1,4 @@
+/*----------------------------------------------------------CAJA DE CONTENIDO---------------------------------------------------*/
 .caja-main {
     width: 700px;
     margin: 100px 30px;
@@ -13,9 +14,9 @@
     font-size: 1.6rem;
 
 }
-
-span {
-    display: block;
-    justify-content: center;
-    align-items: center;
+/*---------------------------------------------------------QUERY DE CAJA DE CONTENIDO---------------------------------------------------*/
+@media (min-width:768px) {
+    .caja-main {
+        font-size: 2.1rem;
+    }
 }
