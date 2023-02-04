@@ -16,10 +16,14 @@ ol{
 
 h1{
     font-size: 48px;
-
+    text-align: center;
+    padding-top: 20px;
 }
 
 main section {
     display: flex;
     justify-content: center;
+}
+label {
+    display: block;
 }

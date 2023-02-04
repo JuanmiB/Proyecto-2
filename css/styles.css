@@ -16,11 +16,17 @@ ol {
 
 h1 {
   font-size: 48px;
+  text-align: center;
+  padding-top: 20px;
 }
 
 main section {
   display: flex;
   justify-content: center;
+}
+
+label {
+  display: block;
 }
 
 header {
@@ -141,7 +147,7 @@ footer {
 
 @media (max-width: 590px) {
   .video-avance {
-    width: 70%;
+    width: 100%;
   }
 }
 @media (min-width: 768px) {
@@ -158,13 +164,6 @@ footer {
   .area {
     height: 300px;
   }
-  label {
-    display: block;
-  }
-  h1 {
-    text-align: center;
-    padding-top: 20px;
-  }
 }
 .fila {
   display: flex;
@@ -180,22 +179,30 @@ footer {
     justify-content: center;
   }
 }
-.perfil-personajes {
-  width: 600px;
-  height: 530px;
+.logrosbronce {
+  background-color: rgba(168, 79, 27, 0.5);
 }
 
-.perfil-personajes img {
-  width: 0px;
-  flex-grow: 1;
-  object-fit: cover;
-  opacity: 0.8;
-  transition: 0.5s ease;
+.logrosplata {
+  background-color: rgba(192, 192, 192, 0.5);
 }
 
-.perfil-personajes img:hover {
-  width: 300px;
-  opacity: 1;
+.logrosoro {
+  background-color: rgba(182, 157, 17, 0.5);
+}
+
+.logroplatino {
+  background-color: rgba(218, 236, 252, 0.5);
+}
+
+.armas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.armas img {
+  width: 100%;
 }
 
 .galeria {
@@ -244,7 +251,7 @@ footer {
     grid-template-rows: repeat(2, 25vh);
   }
   .grilla-galeria img {
-    box-shadow: 1px 20px 10px;
+    box-shadow: 1px 15px 10px;
     transition-duration: 0.5s;
   }
   .grilla-galeria img:hover {
